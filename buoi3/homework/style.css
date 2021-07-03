@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+  text-align: center;
+  text-shadow: 5px 5px 3px orange;
+}
+h2 {
+  color: red;
+}
+.img-cover {
+  width: 900px;
+}
+p {
+  text-indent: 10px;
+  font-size: 20px;
+}
+.img-menu {
+  width: 300px;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
