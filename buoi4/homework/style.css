@@ -6,59 +6,47 @@
 .content {
   word-spacing: -1ch;
 }
-.img {
-  
-  display: block;
-  max-width: 205px;
-  max-height: 250px;
-  width: auto;
-  height: auto;
-}
+
 .container {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
-.section-header {
-  word-spacing: normal;
-}
-.header {
-  text-align: center;
-  background-color: lightblue;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.menu-item {
-  display: inline;
-}
-.menu {
-  text-align: center;
-  background-color: lightcyan;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.main,
-.asdie {
-  display: inline-block;
-}
-.main {
-  word-spacing: normal;
-  width: 100%;
-}
+
 .item {
   display: inline-block;
-  width: 205px;
+  width: calc((100% - 60px) / 4);
   background-color: orange;
-  word-spacing: normal;
   height: 250px;
+  word-spacing: normal;
 }
+
 .mr-20 {
   margin-right: 20px;
 }
 .list {
-  display: block;
-}
-.list {
+  display: inline-block;
   width: 900px;
   height: 250px;
+  margin-top: 20px;
+}
+.small-item {
+  display: block;
+  background-color: orange;
+  height: calc((100% - 10px) / 2);
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.s-item {
+  display: inline-block;
+  width: calc((100% - 60px) / 4);
+  height: 250px;
+  word-spacing: normal;
+}
+.pdt-133{
+  padding-top: 133px;
+}
+.txt-top{
+  text-align: start;
 }
