@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+}
+tbody tr,
+tbody td,
+thead th {
+  border: 1px solid;
+}
+th,
+td {
+  padding: 10px;
+}
+/* tfoot{
+    text-align: right;
+} */
+tbody tr:nth-child(odd){
+    background-color: rgb(231, 229, 229);
+}
+table{
+    text-align: center;
+}
