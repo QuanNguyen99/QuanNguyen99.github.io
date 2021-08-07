@@ -49,8 +49,7 @@
 
 @media (max-width:550px) {
     .container{
-        max-width: 200px; 
-        
+        max-width: 200px;         
     }
     .header{
     width: 200px;
@@ -64,14 +63,13 @@
     .right-block{
         background-color: lightsalmon;
         width: 33.3333%;
-        justify-content: endl       
+        justify-content: end;       
     }
     .right-block>.button{
         margin-right: 5px;
     }
     .left-block{
         background-color: lightsalmon;
-    
         width: 66.6666%;
     }
     .content{
