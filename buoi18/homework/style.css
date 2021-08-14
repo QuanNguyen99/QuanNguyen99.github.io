@@ -1,0 +1,140 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
+img, svg {
+    vertical-align: baseline !important;
+}
+.row{
+    --bs-gutter-x: 15px !important;
+    --bs-gutter-y: 15px !important;
+}
+button{
+    border-style: none;
+}
+.btn-menu{
+    text-align: center;
+    margin-top: 13px;
+
+}
+.btn-mode{
+    text-align: center;
+    margin-top: 13px;
+    border-radius: 50%;
+}
+.btn-user{
+    text-align: center;
+    margin-top: 13px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: white;
+}
+.btn-cl{
+   float: right;
+   right: 0;
+   top: 0;
+}
+.btn-mode:hover{
+    background-color: lightslategray;
+    color: white;
+}
+.menu{
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 100%;
+    left: -300px  ;
+    transition: 0.5s;
+}
+ul{
+    
+    list-style: none;
+}
+li{
+    margin-top: 15px;
+}
+li:hover{
+    cursor: pointer;
+}
+form{
+    margin-left: 10px;
+}
+.show{
+    left: 0;
+}
+.user{
+    background-color: white;
+    width: 220px;
+    right: -250px;
+    transition: 0.5s;
+    padding: 10px;    
+    height: 100%;
+    z-index: 1;
+    
+}
+
+.menu-list{
+    display: none;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: wavy;
+}
+.none{
+    display: none;
+}
+.show-user{
+    right: 0;
+  
+}
+.post{
+    overflow: hidden;
+    width: 516px;
+    position: relative;
+}
+
+.post:hover{
+    cursor: pointer;
+     transform: scale(101%);
+     transition: 0.5s;
+}
+h2{
+    text-transform:uppercase ;
+}
+h2:hover{
+    cursor: pointer;
+}
+
+.movie-desc {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding:10px 10px;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0)
+    );
+    color: #fff;
+}
+
+@media (min-width:992px) {
+    .btn-menu{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-list{
+        display: flex !important;
+    }
+    .none{
+        display: block;
+    }
+}
+
