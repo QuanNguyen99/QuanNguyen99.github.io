@@ -1,0 +1,53 @@
+.forgot-p>a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.modal-body{
+    padding: 20px;
+}
+.btn-success{
+    width: 100%;
+}
+.mx-auto{
+    display: block;
+    width: fit-content;
+}
+.login-icon>button>img{
+    width: 30px;
+    height: 30px;
+}
+.login-icon>button{
+    border-style: none;
+}
+.login-icon{
+    display: block;
+    text-align: center;
+}
+#exampleInputEmail1{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+#exampleInputPassword1{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+#nav-signup{
+    text-align: center;
+    display: block;
+}
+
+#nav-signup>form>div>input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-color:rgb(233, 233, 233) ;
+}
+.show{
+    display: block !important;
+}
+
